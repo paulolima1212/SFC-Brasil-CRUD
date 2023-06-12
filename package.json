@@ -4,12 +4,31 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "dev": "tsx watch src/app.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "2.4.3",
     "body-parser": "^1.20.2",
-    "express": "^4.18.2"
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "ts-node": "^10.9.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.2",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.3.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
   }
 }
